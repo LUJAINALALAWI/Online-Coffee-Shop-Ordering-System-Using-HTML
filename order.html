@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+</html>
+<head>
+<meta charset="UTF-8">
+<title>order.HTML</title>
+<link href="style.css" type="text/css"rel="stylesheet">
+</head>
+<body>
+<div class="header">
+<img src="logo.jpg" alt="logo" />
+<h1> Order Your Drink</h1>
+</div>
+<br>
+<form id="myForm"class="form">
+<fieldset><legend> Choose your Coffee</legend>
+<p><em> choose your preferred HOT coffee</em></p>
+<li><label><input type="radio" name="crust" value="white"> Americano</label></li>
+<li><label><input type="radio" name="crust" value="gluten free"> Caramel Macchiato </label></li>
+<li><label><input type="radio" name="crust" value="white"> Espresso </label></li>
+<li><label><input type="radio" name="crust" value="white"> Flat white </label></li>
+<p><em> choose your preferred ICED coffee</em></p>
+<li><label><input type="radio" name="crust" value="white"> Iced Caffe Latte</label></li>
+<li><label><input type="radio" name="crust" value="gluten free"> Iced Caramel Macchiato </label></li>
+<li><label><input type="radio" name="crust" value="white"> Iced Mocha Cafe </label></li>
+<li><label><input type="radio" name="crust" value="white"> Iced diistinctive chocolate</label></li>
+<p><em> choose what you want to add on your drink</em></p>
+<label><input type="checkbox" name="toppings[]" value="red sauce" checked> Caramel sauce </label>
+<label><input type="checkbox" name="toppings []" value="mozzarella cheese"> Chocolate sauce</label>
+<label><input type="checkbox" name="toppings []" value="pepperoni">Whipped cream </label>
+<p> how many Drinks:
+<select name="drinks">
+<option> 1</option>
+<option> 2</option>
+<option> 3</option>
+<option> 4</option>
+<option> 5</option>
+<option> 6</option>
+</select></p>
+<p> Drinks Size:
+<select name="drinks Size">
+<option> Small</option>
+<option> Large</option>
+<option> Medium</option>
+</select></p>
+<label for id="d"> Write what you want to write on your coffee cup </label> <br>
+<textarea name="instructions" rows="4" cols="68" maxlength="140" id="d" placeholder=" your sentence must be less than 140
+characters long">
+</textarea>
+</fieldset>
+<fieldset>
+<legend> Your Information</legend>
+<li><label for="1"> Name</label> <input type="text" name="customername" id="1"></li><br>
+<li><label for="2"> Address</label> <input type="text" name="address" id="2"></li><br>
+<li><label for="3"> Telephone</label> <input type="tel" name="telephone" id="3"></li><br>
+<li><label for="4"> Email</label> <input type="email" name="email" id="4"></li><br>
+<p> Preferred payment method:
+<select name="card">
+<option> Card</option>
+<option>Paiement when reciving </option>
+</select></p>
+</fieldset>
+<button onclick="myFunction()">preparing my order</button>
+
+<script>
+function myFunction() {
+  alert("Hello! Your order has been received we are happy to serve you at any time!");
+}
+</script>
+<input type="reset" value="reset">
+</form>
+<nav>
+<h4>To Back to home page click:
+<ul>
+<li><a href="index.html">index.html</a></li>
+</ul></h4>
+</nav>
+</body>
+</html>

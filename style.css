@@ -1,0 +1,33 @@
+body { background-image: url(background.jpg);
+       background-size: cover;
+       Background-attachment: fixed;
+       Background-repeat: no-repeat;}
+h1 {
+  color: red;
+  font-family: verdana;
+  font-size: 150%;
+}
+p {
+  color: blue;
+  font-family: verdana;
+  font-size: 160%;
+}
+.header { border-bottom: 8px solid #c7c750;
+         padding: 4em;
+		}
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+.blockquote {border: 4px dashed;color:#c7c750;}
+h3:hover { color: blue;
+           Background-color: #c7c750;}
+
